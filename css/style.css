@@ -1,0 +1,186 @@
+body {
+  font-family: 'Montserrat-Black', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Heading */
+.big-heading {
+  font-size: 3.1rem;
+  font-weight: bolder;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Color-Sections */
+
+.color-section {
+
+}
+
+.white-section {
+  color: #fff;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: 500;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat-Light';
+}
+
+/* Download button */
+.download-button {
+  margin: 5% 3% 4% 0;
+}
+
+/* Title Section */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  background-color: #ff4c68;
+  text-align: left;
+}
+
+/* Title Image */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+.title-image-div {
+  position: relative;
+}
+
+/* Feature Section */
+#features {
+  padding: 10% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.7rem;
+}
+
+.feature-p {
+  color: #8f8f8f;
+  margin-left: 12%;
+  margin-right: 12%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68
+}
+
+/* Testimonial Section */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.textimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  padding: 0 10%;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press Section */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* CTA Section */
+#cta {
+  background-color: #ff4c68;
+  margin: auto;
+}
+
+.cta-heading {
+  font-size: 3rem;
+  width: 80%;
+  margin: auto;
+  line-height: 1.5;
+}
+
+/* Footer */
+#footer {
+  background-color: #fff;
+}
+
+.icon1 {
+  margin: 10px 7px;
+}
+
+/* Media Query */
+@media (max-width: 992px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
